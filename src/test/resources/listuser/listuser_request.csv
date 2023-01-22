@@ -1,0 +1,2 @@
+TestCaseId,email,password,pathparam, queryparamKey1,queryParamValue1
+01,"eve.holt@reqres.in","cityslicka",1,page,2,page,1
