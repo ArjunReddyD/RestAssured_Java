@@ -21,7 +21,7 @@ public class TestLogin extends BaseTest {
 	public void Init() throws IOException {
 
 		RestAssured.baseURI = BaseURL; //Get URL from BaseTest
-		RestAssured.useRelaxedHTTPSValidation();
+		RestAssured.given().relaxedHTTPSValidation();
 	}
 	
 	
