@@ -8,5 +8,17 @@
             <class name="com.qa.test.login.TestLogin" />
         </classes>
     </test>
+    
+        <test name="Single" preserve-order="true" enabled="true">
+        <classes>
+            <class name="com.qa.test.single.TestSingleUser" />
+        </classes>
+    </test>
+    
+        <test name="ListUsers" preserve-order="true" enabled="true">
+        <classes>
+            <class name="com.qa.test.list_users.TestListUsers" />
+        </classes>
+    </test>
    
 </suite>
